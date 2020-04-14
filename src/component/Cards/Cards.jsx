@@ -39,6 +39,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         </Grid>
         {/*Card ends */}
         <Grid
+          item
           component={Card}
           xs={12}
           md={3}
@@ -49,12 +50,13 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               Deaths
             </Typography>
             <Typography variant="h5">Data</Typography>
-            <Typography color="textSecondry">Real date</Typography>
+            <Typography color="secondary">Real date</Typography>
             <Typography variant="body2">Number of active cases.</Typography>
           </CardContent>
         </Grid>
         {/*Card ends */}
         <Grid
+          item
           component={Card}
           xs={12}
           md={3}
@@ -65,7 +67,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               Recovered
             </Typography>
             <Typography variant="h5">Data</Typography>
-            <Typography color="textSecondry">Real date</Typography>
+            <Typography color="secondary">Real date</Typography>
             <Typography variant="body2">Number of active cases.</Typography>
           </CardContent>
         </Grid>
