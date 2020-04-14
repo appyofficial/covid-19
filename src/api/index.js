@@ -20,3 +20,11 @@ export const fetchData = async () => {
     console.log(err);
   }
 };
+
+//daily data
+export const dailyData = async () =>{
+  try{
+    const  response = await axios(`${url}/daily`);
+  }
+  catch(){}
+}

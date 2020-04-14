@@ -1,0 +1,19 @@
+.cardContainer {
+  padding: 20px;
+  margin: 5px;
+}
+
+.infected {
+  border: 10px red solid;
+  border-radius: 10px;
+}
+
+.recovered {
+  border: 10px yellowgreen solid;
+  border-radius: 10px;
+}
+
+.deaths {
+  border: 10px grey solid;
+  border-radius: 10px;
+}
